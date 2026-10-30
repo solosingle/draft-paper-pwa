@@ -1,12 +1,10 @@
 /* 草稿纸 PWA Service Worker：离线缓存 App Shell */
-var CACHE_NAME = 'draft-pwa-v1';
+var CACHE_NAME = 'draft-pwa-v2';
 var APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png'
+  './icons/icon.svg'
 ];
 
 self.addEventListener('install', function (event) {
